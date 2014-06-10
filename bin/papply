@@ -1,0 +1,4 @@
+#!/bin/bash
+RUBYLIB=/usr/lib/ruby
+PUPPETDIR=/var/puppet/
+puppet apply  --verbose  --modulepath ${PUPPETDIR}/modules ${PUPPETDIR}/manifests/site.pp
